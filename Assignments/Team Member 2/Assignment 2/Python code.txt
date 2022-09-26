@@ -1,0 +1,9 @@
+import random
+while(True):
+    T=random.randint(0,100)
+    H=random.randint(0,100)
+    if(T>37 and H>60):
+        print("High Temperature and humidity of:",T,H,"%","Alarm is ON")
+    elif(T<37 and H<60):
+        print("High Temperature and humidity of:", T, H, "%", "Alarm is OFF")
+        break
